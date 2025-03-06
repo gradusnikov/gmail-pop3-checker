@@ -15,10 +15,10 @@ Normally Gmail will check your defined external POP3 accounts every 30 minutes. 
 ## Usage
 
 1. Open Gmail
-
 2. Press "Check POP3" button next to the regular "refresh" button
-
 3. Enjoy reading new e-mails from your defined POP3 accounts
+
+![](screenshot.png)
 
 
 ## Contributing
