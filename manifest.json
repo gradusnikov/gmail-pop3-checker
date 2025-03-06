@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail POP3 Checker",
+  "version": "1.0",
+  "description": "Adds a button to manually check POP3 accounts in Gmail",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }  
+}

@@ -1,0 +1,26 @@
+.pop3-check-button {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: 'Google Sans', Roboto, sans-serif;
+    font-size: 14px;
+    margin-right: 8px;
+    padding: 8px 12px;
+    height: 36px;
+    min-width: 96px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pop3-check-button:hover {
+    background-color: #f6f6f6;
+    border-color: #c6c6c6;
+  }
+  
+  .pop3-check-button:active {
+    background-color: #f2f2f2;
+  }
